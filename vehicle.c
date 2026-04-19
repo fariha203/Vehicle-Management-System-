@@ -96,9 +96,10 @@ int searchVehicle(){
 
         for(int i=0 ; i<vehicleCount ; i++)
         {
-            if(strcmp(id,vehicles[i].vehicleId)==0)
+            if(strcmp(id,vehicles[i].vehicleId)==0){
             temp=i;
             break;
+            }
          }
         if(temp==-1)
         {
